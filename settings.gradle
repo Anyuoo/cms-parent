@@ -1,0 +1,5 @@
+rootProject.name = 'cms-parent'
+include'article-service'
+include'video-service'
+include 'common'
+

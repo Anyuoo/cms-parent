@@ -1,0 +1,6 @@
+dependencies {
+
+}
+//是生成jar包，不生成可执行jar包
+jar.enabled = true
+bootJar.enabled = false

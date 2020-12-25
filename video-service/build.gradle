@@ -1,0 +1,6 @@
+
+dependencies {
+	def deps = this.rootProject.ext.dependencies
+	implementation project(':common')
+	implementation deps.nacos_discovery
+}

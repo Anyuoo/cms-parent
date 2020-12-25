@@ -1,0 +1,6 @@
+server:
+  port: 9050
+  servlet:
+    application-display-name: article-service
+    context-path: /article
+
