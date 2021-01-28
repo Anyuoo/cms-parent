@@ -2,4 +2,7 @@ rootProject.name = 'cms-parent'
 include'article-service'
 include'video-service'
 include 'common'
+include 'cache-servcie'
+include 'gateway'
+include 'auth-service'
 

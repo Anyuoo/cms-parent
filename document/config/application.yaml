@@ -1,0 +1,48 @@
+server:
+  port: 9050
+  servlet:
+    application-display-name: article-service
+    context-path: /article
+
+
+spring:
+  application:
+    name: article-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+    #sentinel dashboard 地址
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+
+  #全局序列化，不序列化null值
+  jackson:
+    default-property-inclusion: non_null
+
+##日志级别
+#logging:
+#  level: debug
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: HEADERS
+  sentinel: #openfeign 开启 sentinel
+    enabled: true
+
+cache-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' #sentinel 配置 暴露所有

@@ -1,0 +1,48 @@
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [E:\IdeaProject\cms-parent\article-service\src\main\java\]
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : E:\IdeaProject\cms-parent\article-service\src\main\java\
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : E:\IdeaProject\cms-parent\article-service\src\main\java\com\anyu\articleservice\controller\ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : E:\IdeaProject\cms-parent\article-service\src\main\java\com\anyu\articleservice\controller\ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [E:\IdeaProject\cms-parent\article-service\src\main\java\]
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : E:\IdeaProject\cms-parent\article-service\src\main\java\
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : E:\IdeaProject\cms-parent\article-service\src\main\java\com\anyu\articleservice\controller\ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : E:\IdeaProject\cms-parent\article-service\src\main\java\com\anyu\articleservice\controller\ArticleController.java
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+12月 26, 2020 4:33:14 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!

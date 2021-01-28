@@ -1,0 +1,7 @@
+
+
+dependencies {
+    def deps = this.rootProject.ext.dependencies
+    implementation deps.nacos_discovery
+    implementation deps.gateway
+}

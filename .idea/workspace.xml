@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e42baf7-10a4-4433-9988-dadffd5d17cb" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/feign/CacheFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/feign/VideoFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/feign/fallback/CacheFeignClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article-service/src/test/java/com/anyu/articleservice/feign/VideoFeignClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/anyu/authservice/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache-servcie/src/main/java/com/anyu/cacheservice/CacheServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache-servcie/src/main/java/com/anyu/cacheservice/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache-servcie/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/buidler/JApiDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/config/Knife4jConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/interceptor/JwtInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/jwt/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/jwt/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/jwt/annotation/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/result/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/config/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/cotroller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/mapper/VideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/article-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/ArticleServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/ArticleServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/article-service/src/main/java/com/anyu/articleservice/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/exception/ApplicationExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/advice/RestCommonResultAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/result/advice/RestCommonResultAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/advice/annotation/CommonResultType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/result/advice/annotation/CommonResultType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/entity/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/entity/enums/IEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/entity/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/result/ResultType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/anyu/common/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/VideoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/VideoServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/cotroller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/videoservice/cotroller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/auth-service">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="auth-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="auth-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="auth-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="auth-service" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="common" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cms-parent" type="f1a62948:ProjectNode" />
+                <item name="gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenRepository" />
+        <option name="mavenHome" value="D:/Develop/Tool/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Apache\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m5xVr66tGCTLQMscFbEQKiJz9V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="GO_FMT" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="F:/GithubCode/CS-Notes" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.anyu.articleservice.feign" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProject\cms-parent\document\config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.anyu.articleservice.model" />
+      <recent name="com.videoservice.service.model" />
+      <recent name="com.anyu.articleservice.entity" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle :clean" />
+      <command value="gradle article-service:build" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ArticleServiceApplication">
+    <configuration name="cms-parent [article-service:build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="article-service:build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cms-parent [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JwtTest.createJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms-parent.auth-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anyu.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anyu.authservice" />
+      <option name="MAIN_CLASS_NAME" value="com.anyu.authservice.JwtTest" />
+      <option name="METHOD_NAME" value="createJwt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.parseJwtToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cms-parent.auth-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anyu.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anyu.authservice" />
+      <option name="MAIN_CLASS_NAME" value="com.anyu.authservice.JwtTest" />
+      <option name="METHOD_NAME" value="parseJwtToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms-parent.article-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anyu.articleservice.ArticleServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms-parent.auth-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anyu.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cms-parent.cache-servcie.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anyu.cacheservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anyu.cacheservice.CacheServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms-parent.gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anyu.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cms-parent.video-service.main" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.videoservice.VideoServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.cms-parent [article-service:build]" />
+      <item itemvalue="Gradle.cms-parent [dependencies]" />
+      <item itemvalue="JUnit.JwtTest.createJwt" />
+      <item itemvalue="JUnit.JwtTest.parseJwtToken" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ArticleServiceApplication" />
+      <item itemvalue="Spring Boot.VideoServiceApplication" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
+      <item itemvalue="Spring Boot.CacheServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CacheServiceApplication" />
+        <item itemvalue="JUnit.JwtTest.parseJwtToken" />
+        <item itemvalue="JUnit.JwtTest.createJwt" />
+        <item itemvalue="Gradle.cms-parent [dependencies]" />
+        <item itemvalue="Gradle.cms-parent [article-service:build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e42baf7-10a4-4433-9988-dadffd5d17cb" name="Default Changelist" comment="" />
+      <created>1608797279462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608797279462</updated>
+      <workItem from="1608797281547" duration="5810000" />
+      <workItem from="1608857705731" duration="29447000" />
+      <workItem from="1608895394119" duration="3673000" />
+      <workItem from="1608965843616" duration="23000" />
+      <workItem from="1608965882065" duration="235000" />
+      <workItem from="1608966151655" duration="58000" />
+      <workItem from="1608966308119" duration="80000" />
+      <workItem from="1608966403390" duration="37000" />
+      <workItem from="1608966584682" duration="88000" />
+      <workItem from="1608966800490" duration="19000" />
+      <workItem from="1608967117280" duration="7343000" />
+      <workItem from="1609118295443" duration="37000" />
+      <workItem from="1609125578582" duration="17514000" />
+      <workItem from="1609203611885" duration="23826000" />
+      <workItem from="1609289823224" duration="28176000" />
+      <workItem from="1609817103127" duration="77000" />
+      <workItem from="1609817378393" duration="93000" />
+      <workItem from="1609817486016" duration="1321000" />
+      <workItem from="1609826858783" duration="851000" />
+      <workItem from="1609830064060" duration="1250000" />
+      <workItem from="1609834502628" duration="329000" />
+      <workItem from="1609834965918" duration="2581000" />
+      <workItem from="1609918786573" duration="1540000" />
+      <workItem from="1609924182844" duration="22000" />
+      <workItem from="1610003864902" duration="2075000" />
+      <workItem from="1610069029265" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.8.RELEASE/f1838e267cf7ef5cf588f9b3ec60cc7314278afb/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/article-service/src/test/java/com/anyu/articleservice/feign/VideoFeignClientTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

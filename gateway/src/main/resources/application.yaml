@@ -1,0 +1,30 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+    gateway: #
+      discovery:
+        locator:
+          enabled: false
+      routes:
+        - id: article-service-route
+          uri: lb://article-service #\u83B7\u53D6article-service\u4E0A\u7684\u53EF\u7528\u8282\u70B9
+          predicates:
+            - Path=/article/** #\u5C06\u8BE5\u8DEF\u5F84\u7684\u7684URL\u8F6C\u53D1\u7ED9article-service\u8282\u70B9
+          filters:
+#            - StripPrefix = 1 #\u5FFD\u7565\u6389\u7B2C\u51E0\u5C42\u524D\u7F00
+        - id: cache-service-route
+          uri: lb://cache-service
+          predicates:
+            - Path=/cache/**
+logging:
+  level:
+    root: debug

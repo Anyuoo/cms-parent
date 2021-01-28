@@ -1,0 +1,24 @@
+server:
+  port: 9080
+  servlet:
+    context-path: /auth
+spring:
+  application:
+    name: auth-service
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+  jackson:
+    default-property-inclusion: non_null #序列化方式
+
+
+app:
+  jwt:
+    secretKey: 7eb374edfac7cc268f7dab26c8595579576959ba53ca50d2c11a324e
+    aud: dd
+    iss: issued by Anyu
+    expiredHours: 24

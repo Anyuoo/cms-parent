@@ -1,4 +1,10 @@
 
 dependencies {
+	def deps = this.rootProject.ext.dependencies
 	implementation(project(":common"))
+	implementation deps.web
+	implementation deps.open_feign
+	implementation deps.nacos_discovery
+	implementation deps.nacos_config
+	implementation deps.sentinel
 }

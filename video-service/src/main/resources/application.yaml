@@ -1,16 +1,15 @@
 server:
   port: 9060
   servlet:
-    application-display-name: video-service
     context-path: /video
 spring:
   application:
-    name: video-service-provider
+    name: video-service
   cloud:
     nacos:
       discovery:
-#        server-addr: 8.129.20.24:8848 #nacos aliyun\u670D\u52A1\u5730\u5740
-        server-addr: 127.0.0.1:8848 #nacos local\u670D\u52A1\u5730\u5740
+#        server-addr: 8.129.20.24:8848 #nacos aliyun
+        server-addr: 127.0.0.1:8848 #nacos local http://192.168.103.1:8848/nacos/index.html
         username: nacos
         password: nacos
 

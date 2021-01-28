@@ -6,6 +6,16 @@ ext {
             "lombok"         : 'org.projectlombok:lombok',
             "nacos_config"   : 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config',
             "nacos_discovery": 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery',
+            "open_feign"     : 'org.springframework.cloud:spring-cloud-starter-openfeign',
+            "sentinel"       : 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel',
+            "gateway"        : 'org.springframework.cloud:spring-cloud-starter-gateway',
+            "web"            : 'org.springframework.boot:spring-boot-starter-web',
+            "webflux"        : 'org.springframework.boot:spring-boot-starter-webflux',
+            //knife4j是swagger增强工具
+            "knife4j"        : "com.github.xiaoymin:knife4j-spring-boot-starter:2.0.7",
+            "hutool"         : 'cn.hutool:hutool-all:5.5.6'
+
     ]
+
 
 }
